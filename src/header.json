@@ -1,5 +1,6 @@
 {
     "name": "Eduardo Landeros",
-    "age": 25,
-    "occupation": "Developer"
+    "contact": {
+        "email": "elanderos318@gmail.com"
+    }
 }
