@@ -108,6 +108,14 @@ a {
   font-weight: bold;
 }
 
+/* ********************************************************************
+***********************************************************************
+***********************************************************************
+***********************************************************************
+***********************************************************************
+***********************************************************************
+****************  Header Media **************************************** */
+
 @media (max-width: 1475px) and (min-width: 1250px) {
 
   .header {
@@ -194,7 +202,98 @@ a {
 
 }
 
-@media (max-width: 999px) and (min-width: 500px) {
+@media (max-width: 999px) and (min-width: 775px) {
+
+  .my-name {
+    font-size: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 3px;
+  }
+  
+  .occupation {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: hsl(175deg, 100%, 80%);
+  }
+
+  .header {
+    height: 610px;
+    width: 100%;
+    background: linear-gradient(180deg, #2c003e, #297574);
+    color: hsl(240deg, 100%, 96%);
+    position: relative;
+  }
+
+  .header-contact {
+    padding-left: 0px;
+    font-size: 20px;
+    color: hsl(175deg, 100%, 80%);
+  
+  }
+
+  .header-contact li {
+    display: inline;
+    margin-right: 40px;
+    font-weight: bold;
+  }
+
+  .bottom-container {
+    display: relative;
+    margin-left: 0px;
+  }
+
+  .skills-container {
+    display: absolute;
+    margin-left: 0px;
+  }
+  .skills-header {
+    font-style: italic;
+    margin-left: 0px;
+    font-size: 20px;
+  }
+
+  .skill-set {
+    margin-left: 0px;
+    /* margin-right: 100px; */
+
+  }
+  
+  .skill-set-li {
+    /* display: inline; */
+    float: left;
+    margin-right: 60px;
+    font-size: 18px;
+    color: hsl(50deg, 100%, 94%);
+    font-weight: bold;
+  }
+
+  .profile-picture {
+    border-color: #41aaa8;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10%;
+    float: left;
+    margin-right: 30px;
+    display: none;
+  }
+
+}
+
+@media (max-width: 774px) and (min-width: 690px) {
+
+  .my-name {
+    font-size: 40px;
+    padding-bottom: 0px;
+    margin-bottom: 3px;
+  }
+  
+  .occupation {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: hsl(175deg, 100%, 80%);
+  }
 
   .header {
     height: 600px;
@@ -229,16 +328,20 @@ a {
   .skills-header {
     font-style: italic;
     margin-left: 0px;
+    font-size: 20px;
   }
 
   .skill-set {
     margin-left: 0px;
+    /* margin-right: 100px; */
+
   }
   
   .skill-set-li {
-    display: inline;
+    /* display: inline; */
+    float: left;
     margin-right: 60px;
-    font-size: 20px;
+    font-size: 15px;
     color: hsl(50deg, 100%, 94%);
     font-weight: bold;
   }
@@ -254,3 +357,170 @@ a {
   }
 
 }
+
+@media (max-width: 689px) and (min-width: 600px) {
+
+  .my-name {
+    font-size: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 3px;
+  }
+  
+  .occupation {
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: hsl(175deg, 100%, 80%);
+  }
+
+  .header {
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(180deg, #2c003e, #297574);
+    color: hsl(240deg, 100%, 96%);
+    position: relative;
+  }
+
+  .header-contact {
+    padding-left: 0px;
+    font-size: 18px;
+    color: hsl(175deg, 100%, 80%);
+  
+  }
+
+  .header-contact li {
+    display: inline;
+    margin-right: 40px;
+    font-weight: bold;
+  }
+
+  .bottom-container {
+    display: relative;
+    margin-left: 0px;
+  }
+
+  .skills-container {
+    display: absolute;
+    margin-left: 0px;
+  }
+  .skills-header {
+    font-style: italic;
+    margin-left: 0px;
+    font-size: 18px;
+  }
+
+  .skill-set {
+    margin-left: 0px;
+    /* margin-right: 100px; */
+
+  }
+  
+  .skill-set-li {
+    /* display: inline; */
+    float: left;
+    margin-right: 50px;
+    font-size: 15px;
+    color: hsl(50deg, 100%, 94%);
+    font-weight: bold;
+  }
+
+  .profile-picture {
+    border-color: #41aaa8;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10%;
+    float: left;
+    margin-right: 30px;
+    display: none;
+  }
+
+}
+
+
+@media (max-width: 599px) and (min-width: 0px) {
+
+  .my-name {
+    font-size: 27px;
+    padding-bottom: 0px;
+    margin-bottom: 3px;
+  }
+  
+  .occupation {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: hsl(175deg, 100%, 80%);
+  }
+
+  .header {
+    height: 630px;
+    width: 100%;
+    background: linear-gradient(180deg, #2c003e, #297574);
+    color: hsl(240deg, 100%, 96%);
+    position: relative;
+  }
+
+  .header-contact {
+    padding-left: 0px;
+    font-size: 15px;
+    color: hsl(175deg, 100%, 80%);
+  
+  }
+
+  .header-contact li {
+    display: inline;
+    margin-right: 40px;
+    font-weight: bold;
+  }
+
+  .bottom-container {
+    display: relative;
+    margin-left: 0px;
+  }
+
+  .skills-container {
+    display: absolute;
+    margin-left: 0px;
+  }
+  .skills-header {
+    font-style: italic;
+    margin-left: 0px;
+    font-size: 15px;
+  }
+
+  .skill-set {
+    margin-left: 0px;
+    /* margin-right: 100px; */
+
+  }
+  
+  .skill-set-li {
+    /* display: inline; */
+    float: left;
+    margin-right: 40px;
+    font-size: 13px;
+    color: hsl(50deg, 100%, 94%);
+    font-weight: bold;
+  }
+
+  .profile-picture {
+    border-color: #41aaa8;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10%;
+    float: left;
+    margin-right: 30px;
+    display: none;
+  }
+
+}
+
+
+
+/* ******************Header Media End******************************
+***********************************************************************
+***********************************************************************
+***********************************************************************
+***********************************************************************
+***********************************************************************
+******************************************************************** */
