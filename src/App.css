@@ -72,6 +72,8 @@ a {
   border-width: 5px;
   border-style: solid;
   border-radius: 10%;
+  float: left;
+  margin-right: 30px;
 }
 
 .header-contact {
@@ -85,4 +87,8 @@ a {
 .header-contact li {
   display: inline;
   margin-right: 130px;
+}
+
+.skills-header {
+  font-style: italic;
 }

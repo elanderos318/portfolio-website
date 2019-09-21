@@ -2,5 +2,35 @@
     "name": "Eduardo Landeros",
     "contact": {
         "email": "elanderos318@gmail.com"
-    }
+    },
+    "skills": [
+        "Python",
+        "JavaScript",
+        "SQL",
+        "SQLAlchemy",
+        "R",
+        "Keras",
+        "Jupyter Notebook",
+        "TensorFlow",
+        "scikit-learn",
+        "D3.js",
+        "Git",
+        "Shell/Bash",
+        "Bloomberg Terminal",
+        "Pandas",
+        "TensorFlow",
+        "NumPy",
+        "Natural Language Processing",
+        "Deep Learning",
+        "Machine Learning",
+        "Neural Networks",
+        "Full-Stack Development",
+        "Statistics",
+        "Linear Algebra",
+        "Economics",
+        "Matplotlib",
+        "MongoDB",
+        "HTML5",
+        "CSS"
+    ]
 }
