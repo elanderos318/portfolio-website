@@ -48,10 +48,12 @@ a {
   position: relative;
 }
 
+
 .header-content {
   padding-top: 30px;
   padding-left: 120px;
   padding-right: 120px;
+  position: relative;
 }
 
 .my-name {
@@ -104,4 +106,151 @@ a {
   font-size: 20px;
   color: hsl(50deg, 100%, 94%);
   font-weight: bold;
+}
+
+@media (max-width: 1475px) and (min-width: 1250px) {
+
+  .header {
+    height: 550px;
+    width: 100%;
+    background: linear-gradient(180deg, #2c003e, #297574);
+    color: hsl(240deg, 100%, 96%);
+    position: relative;
+  }
+
+  .header-contact {
+    padding-left: 0px;
+    font-size: 20px;
+    color: hsl(175deg, 100%, 80%);
+  
+  }
+
+  .header-contact li {
+    display: inline;
+    margin-right: 80px;
+    font-weight: bold;
+  }
+
+}
+
+@media (max-width: 1249px) and (min-width: 1000px) {
+
+  .header {
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(180deg, #2c003e, #297574);
+    color: hsl(240deg, 100%, 96%);
+    position: relative;
+  }
+
+  .header-contact {
+    padding-left: 0px;
+    font-size: 20px;
+    color: hsl(175deg, 100%, 80%);
+  
+  }
+
+  .header-contact li {
+    display: inline;
+    margin-right: 40px;
+    font-weight: bold;
+  }
+
+  .bottom-container {
+    display: relative;
+    margin-left: 0px;
+  }
+
+  .skills-container {
+    display: absolute;
+    margin-left: 0px;
+  }
+  .skills-header {
+    font-style: italic;
+    margin-left: 0px;
+  }
+
+  .skill-set {
+    margin-left: 0px;
+  }
+  
+  .skill-set-li {
+    display: inline;
+    margin-right: 60px;
+    font-size: 20px;
+    color: hsl(50deg, 100%, 94%);
+    font-weight: bold;
+  }
+
+  .profile-picture {
+    border-color: #41aaa8;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10%;
+    float: left;
+    margin-right: 30px;
+    display: none;
+  }
+
+}
+
+@media (max-width: 999px) and (min-width: 500px) {
+
+  .header {
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(180deg, #2c003e, #297574);
+    color: hsl(240deg, 100%, 96%);
+    position: relative;
+  }
+
+  .header-contact {
+    padding-left: 0px;
+    font-size: 20px;
+    color: hsl(175deg, 100%, 80%);
+  
+  }
+
+  .header-contact li {
+    display: inline;
+    margin-right: 40px;
+    font-weight: bold;
+  }
+
+  .bottom-container {
+    display: relative;
+    margin-left: 0px;
+  }
+
+  .skills-container {
+    display: absolute;
+    margin-left: 0px;
+  }
+  .skills-header {
+    font-style: italic;
+    margin-left: 0px;
+  }
+
+  .skill-set {
+    margin-left: 0px;
+  }
+  
+  .skill-set-li {
+    display: inline;
+    margin-right: 60px;
+    font-size: 20px;
+    color: hsl(50deg, 100%, 94%);
+    font-weight: bold;
+  }
+
+  .profile-picture {
+    border-color: #41aaa8;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10%;
+    float: left;
+    margin-right: 30px;
+    display: none;
+  }
+
 }

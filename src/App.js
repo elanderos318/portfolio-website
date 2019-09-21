@@ -67,14 +67,18 @@ function Header() {
           </li>
         </ul>        
 
-        <img src={profile} alt="Eduardo's Profile Pic" className="profile-picture"></img>
-
-        <h2 className = "skills-header">Skills At A Glance:</h2>
-
-        <ul className = "skill-set">
-          {skillElements}
-        </ul>
-
+        {/* <img src={profile} alt="Eduardo's Profile Pic" className="profile-picture"></img> */}
+        
+        <div className="bottom-container">
+          <img src={profile} alt="Eduardo's Profile Pic" className="profile-picture"></img>
+          
+          <div className="skills-container">
+            <h2 className = "skills-header">Skills At A Glance:</h2>
+            <ul className = "skill-set">
+              {skillElements}
+            </ul>
+          </div>
+        </div>
 
       </div>
 
