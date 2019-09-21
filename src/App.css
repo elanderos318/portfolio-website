@@ -80,15 +80,28 @@ a {
   padding-left: 0px;
   font-size: 20px;
   color: hsl(175deg, 100%, 80%);
-  /* font-weight: 100; */
-  /* margin: 0px; */
+
 }
 
 .header-contact li {
   display: inline;
   margin-right: 130px;
+  font-weight: bold;
 }
 
 .skills-header {
   font-style: italic;
+  margin-left: 240px;
+}
+
+.skill-set {
+  margin-left: 240px;
+}
+
+.skill-set-li {
+  display: inline;
+  margin-right: 60px;
+  font-size: 20px;
+  color: hsl(50deg, 100%, 94%);
+  font-weight: bold;
 }

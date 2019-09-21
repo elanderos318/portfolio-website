@@ -35,7 +35,7 @@ function Header() {
   const skillSet = header.skills;
   const skillElements = skillSet.map((skill, i) => {
     return (
-      <li key={i}>
+      <li className = "skill-set-li" key={i}>
         {skill}
       </li>
     )
@@ -71,7 +71,7 @@ function Header() {
 
         <h2 className = "skills-header">Skills At A Glance:</h2>
 
-        <ul classNmae = "skill-set">
+        <ul className = "skill-set">
           {skillElements}
         </ul>
 
