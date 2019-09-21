@@ -44,16 +44,16 @@ function Header() {
         <ul className="header-contact">
 
           <li>
-            <a href="https://github.com/elanderos318?tab=overview&from=2019-09-01&to=2019-09-20" target = "_blank">Github</a>
+            <a href="https://github.com/elanderos318?tab=overview&from=2019-09-01&to=2019-09-20" target = "_blank">Github</a> 
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/eduardo-landeros-100a8612b/" target="_blank">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/eduardo-landeros-100a8612b/" target="_blank">LinkedIn</a> 
           </li>
           <li>
-            <span style={contactStyle}>email: </span>{header.contact.email}
+            <span style={contactStyle}> email: </span>{header.contact.email} 
           </li>
           <li>
-            <span style={contactStyle}>location: </span>Chicago, IL
+            <span style={contactStyle}> location: </span>Chicago, IL 
           </li>
         </ul>        
 

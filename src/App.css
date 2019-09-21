@@ -31,15 +31,19 @@
     transform: rotate(360deg);
   }
 } */
+:root {
+  --lighter-turquoise: hsl(240deg, 100%, 96%);
+}
 
 a {
-  color: #41aaa8;
+  color: hsl(175deg, 100%, 80%);
 }
 
 .header {
   height: 500px;
   width: 100%;
-  background-color: #2c003e;
+  /* background-color: #2c003e; */
+  background: linear-gradient(180deg, #2c003e, #297574);
   color: hsl(240deg, 100%, 96%);
   position: relative;
 }
@@ -60,7 +64,7 @@ a {
   font-size: 30px;
   margin-top: 0px;
   margin-bottom: 0px;
-  color: #41aaa8;
+  color: hsl(175deg, 100%, 80%);
 }
 
 .profile-picture {
@@ -73,7 +77,7 @@ a {
 .header-contact {
   padding-left: 0px;
   font-size: 20px;
-  color: #41aaa8 !important;
+  color: hsl(175deg, 100%, 80%);
   /* font-weight: 100; */
   /* margin: 0px; */
 }
