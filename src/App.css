@@ -40,7 +40,7 @@ a {
 }
 
 .header {
-  height: 500px;
+  height: 570px;
   width: 100%;
   /* background-color: #2c003e; */
   background: linear-gradient(180deg, #2c003e, #297574);
@@ -106,6 +106,12 @@ a {
   font-size: 20px;
   color: hsl(50deg, 100%, 94%);
   font-weight: bold;
+}
+
+.page-description {
+  margin-top: 70px;
+  font-style: italic;
+  font-size: 25px;
 }
 
 /* ********************************************************************

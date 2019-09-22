@@ -78,7 +78,10 @@ function Header() {
               {skillElements}
             </ul>
           </div>
+
+          <p class="page-description">This is my résumé webpage where you can find all the details about my skills, experience, and background</p>
         </div>
+
 
       </div>
 
