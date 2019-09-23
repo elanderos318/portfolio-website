@@ -109,6 +109,7 @@ function Work() {
         <div className = "job-content">
           <div className="job-header">
             <h2 className="job-title">{job.title}</h2>
+            <h2 className="job-company">{job.company}</h2>
           </div>
         </div>
       </div>
