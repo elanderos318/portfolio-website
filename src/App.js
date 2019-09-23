@@ -111,6 +111,9 @@ function Work() {
             <h2 className="job-title">{job.title}</h2>
             <h2 className="job-company">{job.company}</h2>
           </div>
+          <div className="job-sub-header">
+            <span className="job-date">{job["start-date"]} - {job["end-date"]}</span><span className="job-location">{job.location}</span>
+          </div>
         </div>
       </div>
     );

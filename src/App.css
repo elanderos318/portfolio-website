@@ -726,6 +726,7 @@ a {
 .job-content {
   padding-left: 120px;
   padding-top: 1px;
+  padding-right: 120px;
 }
 
 .job-title {
@@ -736,11 +737,27 @@ a {
 
 .job-company {
   margin-top: 0px;
+  margin-bottom: 0px;
   font-size: 20px;
   font-weight: normal;
 }
 
 
+
+.job-sub-header {
+  margin-top: 0px;
+  text-align: right;
+  font-style: italic;
+  color: hsl(100deg, 0%, 30%);
+}
+
+.job-date {
+  float: left;
+}
+
+.job-location {
+  float: right;
+}
 /* background-color: hsl(175deg, 45%, 80%); */
 
 
