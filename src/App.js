@@ -106,8 +106,10 @@ function Work() {
 
     return (
       <div className={containerClass}>
-        <div className="job-header">
-          <h2 className="job-title">{job.title}</h2>
+        <div className = "job-content">
+          <div className="job-header">
+            <h2 className="job-title">{job.title}</h2>
+          </div>
         </div>
       </div>
     );

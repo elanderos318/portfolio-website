@@ -694,7 +694,7 @@ a {
 .work-container {
   height: 100px;
   width: 100%;
-  background-color: hsl(175deg, 40%, 75%);
+  background-color: hsl(175deg, 35%, 70%);
   margin-top: -21px;
   position: relative;
 }
@@ -702,6 +702,25 @@ a {
 .work-header {
   padding-left: 120px;
   padding-top: 8px;
+}
+
+.job-container {
+  height: 100px;
+  width: 100%;
+}
+
+.job-even {
+  background-color: #d2fafb;
+
+
+}
+
+.job-odd {
+  background-color: hsl(150deg, 40%, 90%);
+}
+
+.job-content {
+  padding-left: 120px;
 }
 
 
