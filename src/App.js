@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import header from './header.json';
+import work from './work.json';
 import profile from './profile.jpg';
 
 // function App() {
@@ -79,7 +80,7 @@ function Header() {
             </ul>
           </div>
 
-          <p class="page-description">This is my résumé webpage where you can find all the details about my skills, experience, and background</p>
+          <p className="page-description">This is my résumé webpage where you can find all the details about my skills, experience, and background</p>
         </div>
 
 
@@ -89,6 +90,24 @@ function Header() {
   )
 }
 
+function Work() {
+  const workList = work;
+  console.log("workList");
+
+  const workElements = workList.map((job, i) => {
+    return (
+      <div className="job-container">
+        <div className="job-header">
+          <h2 className="job-title">{job.title}</h2>
+        </div>
+      </div>
+    );
+  })
+
+  return (
+    <div className="job-body">{workElements}</div>
+  );
+}
 
 
 class App extends React.Component {
@@ -110,6 +129,8 @@ class App extends React.Component {
             <h1 className="work-title">Work Experience</h1>
           </div>
         </div>
+
+        <Work />
 
       </div>
 
