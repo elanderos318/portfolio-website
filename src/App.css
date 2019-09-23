@@ -694,7 +694,7 @@ a {
 .work-container {
   height: 100px;
   width: 100%;
-  background-color: hsl(175deg, 45%, 45%);
+  background-color: hsl(175deg, 40%, 75%);
   margin-top: -21px;
   position: relative;
 }
