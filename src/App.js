@@ -95,8 +95,17 @@ function Work() {
   console.log("workList");
 
   const workElements = workList.map((job, i) => {
+
+    let containerClass;
+
+    if ((i % 2) === 0) {
+      containerClass = "job-container job-even"; 
+    } else {
+      containerClass = "job-container job-odd";
+    }
+
     return (
-      <div className="job-container">
+      <div className={containerClass}>
         <div className="job-header">
           <h2 className="job-title">{job.title}</h2>
         </div>
