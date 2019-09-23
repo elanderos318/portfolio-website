@@ -90,6 +90,7 @@ function Header() {
 }
 
 
+
 class App extends React.Component {
 
   constructor(props) {
@@ -98,7 +99,21 @@ class App extends React.Component {
 
   render() {
     return (
-      <Header />
+      
+
+      <div className="portfolio-body">
+
+        <Header />
+
+        <div className="work-container">
+          <div className="work-header">
+            <h1 className="work-title">Work Experience</h1>
+          </div>
+        </div>
+
+      </div>
+
+
       // {/* <div className="App">
       //   <header className="App-header">
       //     <img src={logo} className="App-logo" alt="logo" />

@@ -690,3 +690,35 @@ a {
 ***********************************************************************
 ***********************************************************************
 ******************************************************************** */
+
+.work-container {
+  height: 100px;
+  width: 100%;
+  background-color: hsl(175deg, 45%, 45%);
+  margin-top: -21px;
+  position: relative;
+}
+
+.work-header {
+  padding-left: 120px;
+  padding-top: 8px;
+}
+
+
+/* background-color: hsl(175deg, 45%, 80%); */
+
+
+/* .header {
+  height: 580px;
+  width: 100%;
+  background: linear-gradient(180deg, #2c003e, #297574);
+  color: hsl(240deg, 100%, 96%);
+  position: relative;
+} */
+
+/* .header-content {
+  padding-top: 30px;
+  padding-left: 120px;
+  padding-right: 120px;
+  position: relative;
+} */
