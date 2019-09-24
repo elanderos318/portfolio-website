@@ -729,7 +729,9 @@ a {
 }
 
 .job-odd {
-  background-color: hsl(150deg, 40%, 90%);
+  background-color: #d2fafb;
+
+  /* background-color: hsl(150deg, 40%, 90%); */
 }
 
 .job-content {
@@ -783,6 +785,20 @@ a {
 ******************** Work Media Begin *****************************8 */
 
 @media (max-width:1750px) and (min-width: 1476px) {
+  .work-container {
+    height: 100px;
+    width: 100%;
+    background-color: hsl(175deg, 55%, 80%);
+    position: relative;
+  }
+  
+  .work-header {
+    padding-left: 90px;
+    padding-top: 7px;
+    font-size: 18px;
+    color: hsl(100deg, 0%, 26%);
+  }
+
   .job-container {
     height: 200px;
     width: 100%;
@@ -799,13 +815,13 @@ a {
   .job-title {
     margin-bottom: 0px;
     color: hsl(100deg, 0%, 35%);
-    font-size: 29px;
+    font-size: 27px;
   }
   
   .job-company {
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 23px;
+    font-size: 21px;
     font-weight: normal;
   }
   
@@ -814,16 +830,30 @@ a {
     height: 20px;
     font-style: italic;
     color: hsl(100deg, 0%, 30%);
-    font-size: 18px;
+    font-size: 17px;
   }
   
   .job-description {
-    font-size: 18px;
+    font-size: 17px;
   }
   
 }
 
 @media (max-width:1475px) and (min-width: 1250px) {
+  .work-container {
+    height: 100px;
+    width: 100%;
+    background-color: hsl(175deg, 55%, 80%);
+    position: relative;
+  }
+  
+  .work-header {
+    padding-left: 90px;
+    padding-top: 7px;
+    font-size: 18px;
+    color: hsl(100deg, 0%, 26%);
+  }
+
   .job-container {
     height: 200px;
     width: 100%;
@@ -840,13 +870,13 @@ a {
   .job-title {
     margin-bottom: 0px;
     color: hsl(100deg, 0%, 35%);
-    font-size: 29px;
+    font-size: 26px;
   }
   
   .job-company {
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 23px;
+    font-size: 20px;
     font-weight: normal;
   }
   
@@ -855,22 +885,36 @@ a {
     height: 20px;
     font-style: italic;
     color: hsl(100deg, 0%, 30%);
-    font-size: 18px;
+    font-size: 17px;
   }
   
   .job-description {
-    font-size: 18px;
+    font-size: 17px;
   }
 }
 
 @media (max-width:1249px) and (min-width: 1000px) {
+  .work-container {
+    height: 100px;
+    width: 100%;
+    background-color: hsl(175deg, 55%, 80%);
+    position: relative;
+  }
+  
+  .work-header {
+    padding-left: 90px;
+    padding-top: 7px;
+    font-size: 17px;
+    color: hsl(100deg, 0%, 26%);
+  }
+
   .job-container {
     height: 200px;
     width: 100%;
     padding-top: 0px;
     /* margin-top: -20px; */
   }
-  
+
   .job-content {
     padding-left: 90px;
     /* padding-top: 1px; */
@@ -880,32 +924,46 @@ a {
   .job-title {
     margin-bottom: 0px;
     color: hsl(100deg, 0%, 35%);
-    font-size: 29px;
+    font-size: 25px;
   }
   
   .job-company {
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 23px;
+    font-size: 19px;
     font-weight: normal;
   }
   
   .job-sub-header {
     margin-top: 0px;
-    height: 20px;
+    height: 10px;
     font-style: italic;
     color: hsl(100deg, 0%, 30%);
-    font-size: 18px;
+    font-size: 16px;
   }
   
   .job-description {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
 @media (max-width:999px) and (min-width: 775px) {
+  .work-container {
+    height: 100px;
+    width: 100%;
+    background-color: hsl(175deg, 55%, 80%);
+    position: relative;
+  }
+  
+  .work-header {
+    padding-left: 90px;
+    padding-top: 7px;
+    font-size: 16px;
+    color: hsl(100deg, 0%, 26%);
+  }
+
   .job-container {
-    height: 200px;
+    height: 220px;
     width: 100%;
     padding-top: 0px;
     /* margin-top: -20px; */
@@ -920,32 +978,46 @@ a {
   .job-title {
     margin-bottom: 0px;
     color: hsl(100deg, 0%, 35%);
-    font-size: 29px;
+    font-size: 24px;
   }
   
   .job-company {
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 23px;
+    font-size: 18px;
     font-weight: normal;
   }
   
   .job-sub-header {
     margin-top: 0px;
-    height: 20px;
+    height: 10px;
     font-style: italic;
     color: hsl(100deg, 0%, 30%);
-    font-size: 18px;
+    font-size: 15px;
   }
   
   .job-description {
-    font-size: 18px;
+    font-size: 15px;
   }
 }
 
 @media (max-width:774px) and (min-width: 690px) {
+  .work-container {
+    height: 100px;
+    width: 100%;
+    background-color: hsl(175deg, 55%, 80%);
+    position: relative;
+  }
+  
+  .work-header {
+    padding-left: 80px;
+    padding-top: 7px;
+    font-size: 15px;
+    color: hsl(100deg, 0%, 26%);
+  }
+
   .job-container {
-    height: 200px;
+    height: 220px;
     width: 100%;
     padding-top: 0px;
     /* margin-top: -20px; */
@@ -960,32 +1032,46 @@ a {
   .job-title {
     margin-bottom: 0px;
     color: hsl(100deg, 0%, 35%);
-    font-size: 29px;
+    font-size: 23px;
   }
   
   .job-company {
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 23px;
+    font-size: 17px;
     font-weight: normal;
   }
   
   .job-sub-header {
     margin-top: 0px;
-    height: 20px;
+    height: 10px;
     font-style: italic;
     color: hsl(100deg, 0%, 30%);
-    font-size: 18px;
+    font-size: 14px;
   }
   
   .job-description {
-    font-size: 18px;
+    font-size: 14px;
   }
 }
 
 @media (max-width:689px) and (min-width: 600px) {
+  .work-container {
+    height: 90px;
+    width: 100%;
+    background-color: hsl(175deg, 55%, 80%);
+    position: relative;
+  }
+  
+  .work-header {
+    padding-left: 70px;
+    padding-top: 7px;
+    font-size: 14px;
+    color: hsl(100deg, 0%, 26%);
+  }
+
   .job-container {
-    height: 200px;
+    height: 230px;
     width: 100%;
     padding-top: 0px;
     /* margin-top: -20px; */
@@ -1000,32 +1086,46 @@ a {
   .job-title {
     margin-bottom: 0px;
     color: hsl(100deg, 0%, 35%);
-    font-size: 29px;
+    font-size: 23px;
   }
   
   .job-company {
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 23px;
+    font-size: 17px;
     font-weight: normal;
   }
   
   .job-sub-header {
     margin-top: 0px;
-    height: 20px;
+    height: 10px;
     font-style: italic;
     color: hsl(100deg, 0%, 30%);
-    font-size: 18px;
+    font-size: 14px;
   }
   
   .job-description {
-    font-size: 18px;
+    font-size: 14px;
   }
 }
 
 @media (max-width:599px) and (min-width: 0px) {
+  .work-container {
+    height: 80px;
+    width: 100%;
+    background-color: hsl(175deg, 55%, 80%);
+    position: relative;
+  }
+  
+  .work-header {
+    padding-left: 30px;
+    padding-top: 7px;
+    font-size: 13px;
+    color: hsl(100deg, 0%, 26%);
+  }
+
   .job-container {
-    height: 200px;
+    height: 230px;
     width: 100%;
     padding-top: 0px;
     /* margin-top: -20px; */
@@ -1040,25 +1140,25 @@ a {
   .job-title {
     margin-bottom: 0px;
     color: hsl(100deg, 0%, 35%);
-    font-size: 29px;
+    font-size: 23px;
   }
   
   .job-company {
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 23px;
+    font-size: 17px;
     font-weight: normal;
   }
   
   .job-sub-header {
     margin-top: 0px;
-    height: 20px;
+    height: 10px;
     font-style: italic;
     color: hsl(100deg, 0%, 30%);
-    font-size: 18px;
+    font-size: 14px;
   }
   
   .job-description {
-    font-size: 18px;
+    font-size: 14px;
   }
 }
