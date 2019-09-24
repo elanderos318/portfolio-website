@@ -695,7 +695,6 @@ a {
   height: 100px;
   width: 100%;
   background-color: hsl(175deg, 55%, 80%);
-  /* margin-top: -20px; */
   position: relative;
 }
 
@@ -709,7 +708,6 @@ a {
 .job-container {
   height: 200px;
   width: 100%;
-  /* position: relative; */
   padding-top: 0px;
   /* margin-top: -20px; */
 }
@@ -731,14 +729,14 @@ a {
 
 .job-title {
   margin-bottom: 0px;
-  color: hsl(100deg, 0%, 30%);
-
+  color: hsl(100deg, 0%, 35%);
+  font-size: 29px;
 }
 
 .job-company {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-size: 20px;
+  font-size: 23px;
   font-weight: normal;
 }
 
@@ -746,9 +744,10 @@ a {
 
 .job-sub-header {
   margin-top: 0px;
-  text-align: right;
+  height: 20px;
   font-style: italic;
   color: hsl(100deg, 0%, 30%);
+  font-size: 18px;
 }
 
 .job-date {
@@ -757,6 +756,10 @@ a {
 
 .job-location {
   float: right;
+}
+
+.job-description {
+  font-size: 18px;
 }
 /* background-color: hsl(175deg, 45%, 80%); */
 
