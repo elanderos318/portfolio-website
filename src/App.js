@@ -3,6 +3,7 @@ import './App.css';
 import header from './header.json';
 import work from './work.json';
 import projects from './projects.json';
+import education from './education.json';
 
 import profile from './profile.jpg';
 import images from './images.js';
@@ -212,30 +213,30 @@ function Projects() {
 }
 
 function Education() {
-  const workList = work;
+  const educationList = education;
 
-  const workElements = workList.map((job, i) => {
+  const educationElements = educationList.map((item, i) => {
 
     let containerClass;
 
     if ((i % 2) === 0) {
-      containerClass = "job-container job-even"; 
+      containerClass = "education-container education-even"; 
     } else {
-      containerClass = "job-container job-odd";
+      containerClass = "education-container education-odd";
     }
 
     return (
       <div className={containerClass}>
-        <div className = "job-content">
-          <div className="job-header">
-            <h2 className="job-title">{job.title}</h2>
-            <h2 className="job-company">{job.company}</h2>
+        <div className = "education-content">
+          <div className="education-header">
+            <h2 className="education-institution">{item.institution}</h2>
+            <h2 className="education-product">{item.product}</h2>
           </div>
-          <div className="job-sub-header">
-            <span className="job-date">{job["start-date"]} - {job["end-date"]}</span><span className="job-location">{job.location}</span>
+          <div className="education-sub-header">
+            <span className="education-date">{item["start-date"]} - {item["end-date"]}</span><span className="education-location">{item.location}</span>
           </div>
-          <div className="job-description">
-            <p>{job.description}</p>
+          <div className="education-description">
+            <p>{item.description}</p>
           </div>
         </div>
       </div>
@@ -243,7 +244,7 @@ function Education() {
   })
 
   return (
-    <div className="job-body">{workElements}</div>
+    <div className="education-body">{educationElements}</div>
   );
 }
 
@@ -273,6 +274,12 @@ class App extends React.Component {
         />
 
         <Projects />
+
+        <Break
+          title="Education"
+        />
+
+        <Education />
 
       </div>
 
