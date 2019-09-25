@@ -141,6 +141,15 @@ function Projects() {
       containerClass = "job-container job-odd";
     }
 
+    let projectLine;
+
+    if (project["start-date"] === project["end-date"]) {
+      projectLine = <span className="project-date">{project["start-date"]}</span>
+    } else {
+      projectLine = <span className="project-date">{project["start-date"]} - {project["end-date"]}</span>
+
+    }
+
     return (
       <div className={containerClass}>
         <div className = "project-content">
@@ -148,7 +157,7 @@ function Projects() {
             <h2 className="project-title">{project.title}</h2>
           </div>
           <div className="project-sub-header">
-            <span className="project-date">{project["date"]}</span>
+          {projectLine}
           </div>
           <div className="project-description">
             <p>{project.description}</p>
@@ -186,9 +195,9 @@ class App extends React.Component {
 
         <Work />
 
-        <div className = "project-header-container">
-          <div className="project-header">
-            <h1 className="project-title">Projects</h1>
+        <div className = "project-break-container">
+          <div className="project-break">
+            <h1 className="project-break-title">Projects</h1>
           </div>
         </div>
 

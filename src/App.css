@@ -1197,14 +1197,14 @@ a {
 ***************************************************************
 *********************   Project Body Begin ************** ** */
 
-.project-header-container {
+.project-break-container {
   height: 100px;
   width: 100%;
   background-color: hsl(175deg, 55%, 80%);
   position: relative;
 }
 
-.project-header {
+.project-break {
   padding-left: 120px;
   padding-top: 7px;
   font-size: 20px;
@@ -1244,14 +1244,14 @@ a {
 ***************  Project Media Begin ********************* */
 
 @media (max-width: 1750px) and (min-width: 1476px) {
-  .project-header-container {
+  .project-break-container {
     height: 100px;
     width: 100%;
     background-color: hsl(175deg, 55%, 80%);
     position: relative;
   }
   
-  .project-header {
+  .project-break {
     padding-left: 90px;
     padding-top: 7px;
     font-size: 18px;
@@ -1261,14 +1261,14 @@ a {
 }
 
 @media (max-width: 1475px) and (min-width: 1250px) {
-  .project-header-container {
+  .project-break-container {
     height: 100px;
     width: 100%;
     background-color: hsl(175deg, 55%, 80%);
     position: relative;
   }
   
-  .project-header {
+  .project-break {
     padding-left: 90px;
     padding-top: 7px;
     font-size: 18px;
@@ -1277,14 +1277,14 @@ a {
 }
 
 @media (max-width: 1249px) and (min-width: 1000px) {
-  .project-header-container {
+  .project-break-container {
     height: 100px;
     width: 100%;
     background-color: hsl(175deg, 55%, 80%);
     position: relative;
   }
   
-  .project-header {
+  .project-break {
     padding-left: 90px;
     padding-top: 7px;
     font-size: 17px;
@@ -1293,14 +1293,14 @@ a {
 }
 
 @media (max-width: 999px) and (min-width: 775px) {
-  .project-header-container {
+  .project-break-container {
     height: 100px;
     width: 100%;
     background-color: hsl(175deg, 55%, 80%);
     position: relative;
   }
   
-  .project-header {
+  .project-break {
     padding-left: 90px;
     padding-top: 7px;
     font-size: 16px;
@@ -1309,14 +1309,14 @@ a {
 }
 
 @media (max-width: 774px) and (min-width: 690px) {
-  .project-header-container {
+  .project-break-container {
     height: 100px;
     width: 100%;
     background-color: hsl(175deg, 55%, 80%);
     position: relative;
   }
   
-  .project-header {
+  .project-break {
     padding-left: 80px;
     padding-top: 7px;
     font-size: 15px;
@@ -1325,14 +1325,14 @@ a {
 }
 
 @media (max-width: 689px) and (min-width: 600px) {
-  .project-header-container {
+  .project-break-container {
     height: 90px;
     width: 100%;
     background-color: hsl(175deg, 55%, 80%);
     position: relative;
   }
   
-  .project-header {
+  .project-break {
     padding-left: 70px;
     padding-top: 7px;
     font-size: 14px;
@@ -1341,14 +1341,14 @@ a {
 }
 
 @media (max-width: 599px) and (min-width: 0px) {
-  .project-header-container {
+  .project-break-container {
     height: 80px;
     width: 100%;
     background-color: hsl(175deg, 55%, 80%);
     position: relative;
   }
   
-  .project-header {
+  .project-break {
     padding-left: 30px;
     padding-top: 7px;
     font-size: 13px;

@@ -1,7 +1,10 @@
 [
     {
-        "title": "",
-        "date": "",
-        "description": ""
+        "title": "Tweetocracy",
+        "start-date": "July 2019",
+        "end-date": "August 2019",
+        "description": "A full-stack development project using D3 for viusalizations and sci-kit learn for machine learning categorization, Tweetocracy explores the twitter accounts of candidates running for the presidency of the United States in the 2020 elections. Designed to provide as much control as possible to the front-end user, the data can be presented through seemingly endless combinations of filters, including any combination of candidate, metric of choice (retweets/favorites), publish date, etc. A machine learning model was trained as well to try to categorize tweets by author, incorporating Natural Language Processing (NLP) along with the more straightforward data.",
+        "github": "https://github.com/elanderos318/Tweetocracy",
+        "website": "https://tweetocracy.herokuapp.com/"
     }
 ]
