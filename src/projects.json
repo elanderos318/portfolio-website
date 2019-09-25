@@ -22,6 +22,12 @@
         "description": "Using CSV files for Chicago speed camera locations and speeding violations in Chicago, this project aimed to synthesize the datasets for further inspection - such as arriving with a set of violations at each speed camera location. Our team also found weather data for Midway airport, which could be used as a proxy for weather conditions in Chicago. Combining this with the previous datasets, one can see if a relationship exists between weather and number violations. The end goal of this project is to create a SQL table with clean data ready for analysis",
         "github": "https://github.com/elanderos318/ETL-Project",
         "website": false
+    },
+    {
+        "title": "Portfolio Website",
+        "start-date": "September 2019",
+        "end-date": "September 2019",
+        "description": "A website designed from the ground-up displaying my experience, skills, and accomplishements. This is the first project in which the CSS is completely, originally engineered. Also, this project was bootstrapped using 'create-react-app', and React is the essential library at work here, with Components/Elements allowing for a simple methodology for displaying and writing code. Here, you may access my résumé and other contact information such as my email, LinkedIn, and Github."
     }
     
 ]
