@@ -1254,9 +1254,10 @@ a {
   .project-header {
     padding-left: 90px;
     padding-top: 7px;
-    font-size: 20px;
+    font-size: 18px;
     color: hsl(100deg, 0%, 26%);
   }
+
 }
 
 @media (max-width: 1475px) and (min-width: 1250px) {

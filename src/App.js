@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import header from './header.json';
 import work from './work.json';
+import projects from './projects.json';
+
 import profile from './profile.jpg';
 
 // function App() {
@@ -92,7 +94,6 @@ function Header() {
 
 function Work() {
   const workList = work;
-  console.log("workList");
 
   const workElements = workList.map((job, i) => {
 
@@ -127,6 +128,41 @@ function Work() {
   );
 }
 
+function Projects() {
+  const projectList = projects;
+
+  const projectElements = projectList.map((project, i) => {
+
+    let containerClass;
+
+    if ((i % 2) === 0) {
+      containerClass = "job-container job-even"; 
+    } else {
+      containerClass = "job-container job-odd";
+    }
+
+    return (
+      <div className={containerClass}>
+        <div className = "project-content">
+          <div className="project-header">
+            <h2 className="project-title">{project.title}</h2>
+          </div>
+          <div className="project-sub-header">
+            <span className="project-date">{project["date"]}</span>
+          </div>
+          <div className="project-description">
+            <p>{project.description}</p>
+          </div>
+        </div>
+      </div>
+    );
+  })
+
+  return (
+    <div className="project-body">{projectElements}</div>
+  );
+}
+
 
 class App extends React.Component {
 
@@ -155,6 +191,8 @@ class App extends React.Component {
             <h1 className="project-title">Projects</h1>
           </div>
         </div>
+
+        <Projects />
 
       </div>
 
