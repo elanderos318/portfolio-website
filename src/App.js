@@ -6,7 +6,7 @@ import projects from './projects.json';
 
 import profile from './profile.jpg';
 import images from './images.js';
-import projectImg from './images/tweetocracy/tweetocracy-1.PNG';
+import projectImg from './assets/tweetocracy/tweetocracy-1.PNG';
 
 // Declare CSS inline styling variables
 var contactStyle = {
@@ -117,7 +117,7 @@ function Projects() {
 
     let projectImages = images.filter((d) => {
       return (
-        d["index"] === i
+        d["projectIndex"] === i
       );
     });
 
@@ -170,7 +170,9 @@ function Projects() {
           <div className="project-description">
             <p>{project.description}</p>
 
-            {projectImg}
+          </div>
+          <div className="project-images-container">
+            {imageElements}
           </div>
         </div>
       </div>
