@@ -1836,3 +1836,385 @@ a {
     border-style: solid;
   }
 }
+
+
+/************************************************************************
+*************************************************************************
+*************************************************************************
+*************************************************************************
+*************************************************************************
+*************************************************************************
+*************************************************************************
+*************************************************************************
+*************************************************************************
+*************************************************************************
+*************************************************************************
+*************************************************************************
+*************************************************************************
+*************************************************************************
+*************************************************************************
+*************************************************************************
+*************************************************************************
+*************************************************************************
+*************************************************************************
+*************************************************************************
+*************************************************************************
+***********************  Education Body Begin ***********************  */
+
+
+
+.education-container {
+  height: 150px;
+  width: 100%;
+  padding-top: 0px;
+  /* margin-top: -20px; */
+}
+
+.education-even {
+  background-color: #d2fafb;
+
+}
+
+.education-odd {
+  /* background-color: #d2fafb; */
+
+  background-color: hsl(189deg, 90%, 90%);
+
+
+  /* background-color: hsl(150deg, 40%, 90%); */
+}
+
+.education-content {
+  padding-left: 120px;
+  padding-top: 1px;
+  padding-right: 120px;
+}
+
+.education-institution {
+  margin-bottom: 0px;
+  color: hsl(100deg, 0%, 35%);
+  font-size: 29px;
+}
+
+.education-product {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 23px;
+  font-weight: normal;
+}
+
+
+.education-sub-header {
+  margin-top: 0px;
+  height: 20px;
+  font-style: italic;
+  color: hsl(100deg, 0%, 30%);
+  font-size: 18px;
+}
+
+.education-date {
+  float: left;
+}
+
+.education-location {
+  float: right;
+}
+
+.education-description {
+  font-size: 18px;
+}
+
+/* *******************************************************************
+**********************************************************************
+**********************************************************************
+**********************************************************************
+**********************************************************************
+**********************************************************************
+**********************************************************************
+******************** Education Media Begin *****************************8 */
+
+@media (max-width:1750px) and (min-width: 1476px) {
+
+  .education-container {
+    height: 150px;
+    width: 100%;
+    padding-top: 0px;
+    /* margin-top: -20px; */
+  }
+
+  .education-content {
+    padding-left: 90px;
+    /* padding-top: 1px; */
+    padding-right: 90px;
+  }
+
+  .education-institution {
+    margin-bottom: 0px;
+    color: hsl(100deg, 0%, 35%);
+    font-size: 27px;
+  }
+  
+  .education-product {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 21px;
+    font-weight: normal;
+  }
+  
+  .education-sub-header {
+    margin-top: 0px;
+    height: 20px;
+    font-style: italic;
+    color: hsl(100deg, 0%, 30%);
+    font-size: 17px;
+  }
+  
+  .education-description {
+    font-size: 17px;
+  }
+  
+}
+
+@media (max-width:1475px) and (min-width: 1250px) {
+
+  .education-container {
+    height: 150px;
+    width: 100%;
+    padding-top: 0px;
+    /* margin-top: -20px; */
+  }
+
+  .education-content {
+    padding-left: 90px;
+    /* padding-top: 1px; */
+    padding-right: 90px;
+  }
+
+  .education-institution {
+    margin-bottom: 0px;
+    color: hsl(100deg, 0%, 35%);
+    font-size: 26px;
+  }
+  
+  .education-product {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: normal;
+  }
+  
+  .education-sub-header {
+    margin-top: 0px;
+    height: 20px;
+    font-style: italic;
+    color: hsl(100deg, 0%, 30%);
+    font-size: 17px;
+  }
+  
+  .education-description {
+    font-size: 17px;
+  }
+}
+
+@media (max-width:1249px) and (min-width: 1000px) {
+  .education-container {
+    height: 135px;
+    width: 100%;
+    padding-top: 0px;
+    /* margin-top: -20px; */
+  }
+
+  .education-content {
+    padding-left: 90px;
+    /* padding-top: 1px; */
+    padding-right: 90px;
+  }
+
+  .education-institution {
+    margin-bottom: 0px;
+    color: hsl(100deg, 0%, 35%);
+    font-size: 25px;
+  }
+  
+  .education-product {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 19px;
+    font-weight: normal;
+  }
+  
+  .education-sub-header {
+    margin-top: 0px;
+    height: 10px;
+    font-style: italic;
+    color: hsl(100deg, 0%, 30%);
+    font-size: 16px;
+  }
+  
+  .education-description {
+    font-size: 16px;
+  }
+}
+
+@media (max-width:999px) and (min-width: 775px) {
+  .education-container {
+    height: 135px;
+    width: 100%;
+    padding-top: 0px;
+    /* margin-top: -20px; */
+  }
+
+  .education-content {
+    padding-left: 90px;
+    /* padding-top: 1px; */
+    padding-right: 90px;
+  }
+
+  .education-institution {
+    margin-bottom: 0px;
+    color: hsl(100deg, 0%, 35%);
+    font-size: 24px;
+  }
+  
+  .education-product {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: normal;
+  }
+  
+  .education-sub-header {
+    margin-top: 0px;
+    height: 10px;
+    font-style: italic;
+    color: hsl(100deg, 0%, 30%);
+    font-size: 15px;
+  }
+  
+  .education-description {
+    font-size: 15px;
+  }
+}
+
+@media (max-width:774px) and (min-width: 690px) {
+
+  .education-container {
+    height: 120px;
+    width: 100%;
+    padding-top: 0px;
+    /* margin-top: -20px; */
+  }
+
+  .education-content {
+    padding-left: 80px;
+    /* padding-top: 1px; */
+    padding-right: 80px;
+  }
+
+  .education-institution {
+    margin-bottom: 0px;
+    color: hsl(100deg, 0%, 35%);
+    font-size: 23px;
+  }
+  
+  .education-product {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 17px;
+    font-weight: normal;
+  }
+  
+  .education-sub-header {
+    margin-top: 0px;
+    height: 10px;
+    font-style: italic;
+    color: hsl(100deg, 0%, 30%);
+    font-size: 14px;
+  }
+  
+  .education-description {
+    font-size: 14px;
+  }
+}
+
+@media (max-width:689px) and (min-width: 600px) {
+
+  .education-container {
+    height: 120px;
+    width: 100%;
+    padding-top: 0px;
+    /* margin-top: -20px; */
+  }
+
+  .education-content {
+    padding-left: 70px;
+    /* padding-top: 1px; */
+    padding-right: 70px;
+  }
+
+  .education-institution {
+    margin-bottom: 0px;
+    color: hsl(100deg, 0%, 35%);
+    font-size: 23px;
+  }
+  
+  .education-product {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 17px;
+    font-weight: normal;
+  }
+  
+  .education-sub-header {
+    margin-top: 0px;
+    height: 10px;
+    font-style: italic;
+    color: hsl(100deg, 0%, 30%);
+    font-size: 14px;
+  }
+  
+  .education-description {
+    font-size: 14px;
+  }
+}
+
+@media (max-width:599px) and (min-width: 0px) {
+
+  .education-container {
+    height: 120px;
+    width: 100%;
+    padding-top: 0px;
+    /* margin-top: -20px; */
+  }
+
+  .education-content {
+    padding-left: 30px;
+    /* padding-top: 1px; */
+    padding-right: 30px;
+  }
+
+  .education-institution {
+    margin-bottom: 0px;
+    color: hsl(100deg, 0%, 35%);
+    font-size: 23px;
+  }
+  
+  .education-product {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 17px;
+    font-weight: normal;
+  }
+  
+  .education-sub-header {
+    margin-top: 0px;
+    height: 10px;
+    font-style: italic;
+    color: hsl(100deg, 0%, 30%);
+    font-size: 14px;
+  }
+  
+  .education-description {
+    font-size: 14px;
+  }
+}

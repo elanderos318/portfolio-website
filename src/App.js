@@ -235,9 +235,9 @@ function Education() {
           <div className="education-sub-header">
             <span className="education-date">{item["start-date"]} - {item["end-date"]}</span><span className="education-location">{item.location}</span>
           </div>
-          <div className="education-description">
+          {/* <div className="education-description">
             <p>{item.description}</p>
-          </div>
+          </div> */}
         </div>
       </div>
     );
