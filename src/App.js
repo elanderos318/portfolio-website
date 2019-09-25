@@ -1,32 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import header from './header.json';
 import work from './work.json';
 import projects from './projects.json';
 
 import profile from './profile.jpg';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
+import images from './images.js';
+import projectImg from './images/tweetocracy/tweetocracy-1.PNG';
 
 // Declare CSS inline styling variables
 var contactStyle = {
@@ -43,6 +23,7 @@ function Header() {
       </li>
     )
   })
+
 
   return(
     <div className="header">
@@ -70,7 +51,6 @@ function Header() {
           </li>
         </ul>        
 
-        {/* <img src={profile} alt="Eduardo's Profile Pic" className="profile-picture"></img> */}
         
         <div className="bottom-container">
           <img src={profile} alt="Eduardo's Profile Pic" className="profile-picture"></img>
@@ -83,6 +63,7 @@ function Header() {
           </div>
 
           <p className="page-description">This is my résumé webpage where you can find all the details about my skills, experience, and background</p>
+
         </div>
 
 
@@ -129,9 +110,23 @@ function Work() {
 }
 
 function Projects() {
+
   const projectList = projects;
 
   const projectElements = projectList.map((project, i) => {
+
+    let projectImages = images.filter((d) => {
+      return (
+        d["index"] === i
+      );
+    });
+
+    let imageElements = projectImages.map((img, index) => {
+      return (
+        <img key={img.index} className = "project-image" alt = {img.alt} src={img.src}></img>
+      )
+    })
+    console.log(imageElements)
 
     let containerClass;
 
@@ -141,12 +136,12 @@ function Projects() {
       containerClass = "project-container project-odd";
     }
 
-    let projectLine;
+    let dateLine;
 
     if (project["start-date"] === project["end-date"]) {
-      projectLine = <span className="project-date">{project["start-date"]}</span>
+      dateLine = <span className="project-date">{project["start-date"]}</span>
     } else {
-      projectLine = <span className="project-date">{project["start-date"]} - {project["end-date"]}</span>
+      dateLine = <span className="project-date">{project["start-date"]} - {project["end-date"]}</span>
     }
 
     let urlLine;
@@ -169,11 +164,13 @@ function Projects() {
             <h2 className="project-title">{project.title}</h2>
           </div>
           <div className="project-sub-header">
-          {projectLine}
+          {dateLine}
           </div>
           {urlLine}
           <div className="project-description">
             <p>{project.description}</p>
+
+            {projectImg}
           </div>
         </div>
       </div>

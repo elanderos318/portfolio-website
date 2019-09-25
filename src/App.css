@@ -1241,15 +1241,6 @@ a {
   font-size: 29px;
 }
 
-/* .job-company {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-size: 23px;
-  font-weight: normal;
-} */
-
-
-
 .project-sub-header {
   margin-top: 0px;
   height: 20px;
@@ -1272,8 +1263,30 @@ a {
   font-size: 18px;
 }
 
+/* .project-image {
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+  background-position: top;
+  display: block;
+} */
+
+.project-image {
+  border-color: #41aaa8;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 10%;
+  float: left;
+  margin-right: 30px;
+}
+
 .url-link {
   color: hsl(220deg, 100%, 50%);
+}
+
+.url-link:hover {
+  color: hsl(50deg, 100%, 94%);
+
 }
 
 
