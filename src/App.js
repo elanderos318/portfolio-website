@@ -72,6 +72,16 @@ function Header() {
   )
 }
 
+function Break(props) {
+  return (
+      <div className = "break-container">
+        <div className="break-content">
+          <h1 className="break-title">{props.title}</h1>
+        </div>
+      </div>
+  );
+}
+
 function Work() {
   const workList = work;
 
@@ -201,6 +211,42 @@ function Projects() {
   );
 }
 
+function Education() {
+  const workList = work;
+
+  const workElements = workList.map((job, i) => {
+
+    let containerClass;
+
+    if ((i % 2) === 0) {
+      containerClass = "job-container job-even"; 
+    } else {
+      containerClass = "job-container job-odd";
+    }
+
+    return (
+      <div className={containerClass}>
+        <div className = "job-content">
+          <div className="job-header">
+            <h2 className="job-title">{job.title}</h2>
+            <h2 className="job-company">{job.company}</h2>
+          </div>
+          <div className="job-sub-header">
+            <span className="job-date">{job["start-date"]} - {job["end-date"]}</span><span className="job-location">{job.location}</span>
+          </div>
+          <div className="job-description">
+            <p>{job.description}</p>
+          </div>
+        </div>
+      </div>
+    );
+  })
+
+  return (
+    <div className="job-body">{workElements}</div>
+  );
+}
+
 
 class App extends React.Component {
 
@@ -216,19 +262,15 @@ class App extends React.Component {
 
         <Header />
 
-        <div className="work-container">
-          <div className="work-header">
-            <h1 className="work-title">Work Experience</h1>
-          </div>
-        </div>
+        <Break
+          title= "Work Experience"
+        />
 
         <Work />
 
-        <div className = "project-break-container">
-          <div className="project-break">
-            <h1 className="project-break-title">Projects</h1>
-          </div>
-        </div>
+        <Break 
+          title="Projects"
+        />
 
         <Projects />
 

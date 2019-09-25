@@ -684,19 +684,6 @@ a {
 **********************************************************************
 ******************** Work Body Begin *****************************8 */
 
-.work-container {
-  height: 100px;
-  width: 100%;
-  background-color: hsl(175deg, 55%, 80%);
-  position: relative;
-}
-
-.work-header {
-  padding-left: 120px;
-  padding-top: 7px;
-  font-size: 20px;
-  color: hsl(100deg, 0%, 26%);
-}
 
 .job-container {
   height: 200px;
@@ -770,19 +757,6 @@ a {
 ******************** Work Media Begin *****************************8 */
 
 @media (max-width:1750px) and (min-width: 1476px) {
-  .work-container {
-    height: 100px;
-    width: 100%;
-    background-color: hsl(175deg, 55%, 80%);
-    position: relative;
-  }
-  
-  .work-header {
-    padding-left: 90px;
-    padding-top: 7px;
-    font-size: 18px;
-    color: hsl(100deg, 0%, 26%);
-  }
 
   .job-container {
     height: 200px;
@@ -825,19 +799,6 @@ a {
 }
 
 @media (max-width:1475px) and (min-width: 1250px) {
-  .work-container {
-    height: 100px;
-    width: 100%;
-    background-color: hsl(175deg, 55%, 80%);
-    position: relative;
-  }
-  
-  .work-header {
-    padding-left: 90px;
-    padding-top: 7px;
-    font-size: 18px;
-    color: hsl(100deg, 0%, 26%);
-  }
 
   .job-container {
     height: 200px;
@@ -879,20 +840,6 @@ a {
 }
 
 @media (max-width:1249px) and (min-width: 1000px) {
-  .work-container {
-    height: 100px;
-    width: 100%;
-    background-color: hsl(175deg, 55%, 80%);
-    position: relative;
-  }
-  
-  .work-header {
-    padding-left: 90px;
-    padding-top: 7px;
-    font-size: 17px;
-    color: hsl(100deg, 0%, 26%);
-  }
-
   .job-container {
     height: 200px;
     width: 100%;
@@ -933,20 +880,6 @@ a {
 }
 
 @media (max-width:999px) and (min-width: 775px) {
-  .work-container {
-    height: 100px;
-    width: 100%;
-    background-color: hsl(175deg, 55%, 80%);
-    position: relative;
-  }
-  
-  .work-header {
-    padding-left: 90px;
-    padding-top: 7px;
-    font-size: 16px;
-    color: hsl(100deg, 0%, 26%);
-  }
-
   .job-container {
     height: 220px;
     width: 100%;
@@ -987,19 +920,6 @@ a {
 }
 
 @media (max-width:774px) and (min-width: 690px) {
-  .work-container {
-    height: 100px;
-    width: 100%;
-    background-color: hsl(175deg, 55%, 80%);
-    position: relative;
-  }
-  
-  .work-header {
-    padding-left: 80px;
-    padding-top: 7px;
-    font-size: 15px;
-    color: hsl(100deg, 0%, 26%);
-  }
 
   .job-container {
     height: 220px;
@@ -1041,19 +961,6 @@ a {
 }
 
 @media (max-width:689px) and (min-width: 600px) {
-  .work-container {
-    height: 90px;
-    width: 100%;
-    background-color: hsl(175deg, 55%, 80%);
-    position: relative;
-  }
-  
-  .work-header {
-    padding-left: 70px;
-    padding-top: 7px;
-    font-size: 14px;
-    color: hsl(100deg, 0%, 26%);
-  }
 
   .job-container {
     height: 230px;
@@ -1095,19 +1002,6 @@ a {
 }
 
 @media (max-width:599px) and (min-width: 0px) {
-  .work-container {
-    height: 80px;
-    width: 100%;
-    background-color: hsl(175deg, 55%, 80%);
-    position: relative;
-  }
-  
-  .work-header {
-    padding-left: 30px;
-    padding-top: 7px;
-    font-size: 13px;
-    color: hsl(100deg, 0%, 26%);
-  }
 
   .job-container {
     height: 230px;
@@ -1167,14 +1061,14 @@ a {
 ***************************************************************
 *********************   Project Body Begin ************** ** */
 
-.project-break-container {
+.break-container {
   height: 100px;
   width: 100%;
   background-color: hsl(175deg, 55%, 80%);
   position: relative;
 }
 
-.project-break {
+.break-content {
   padding-left: 120px;
   padding-top: 7px;
   font-size: 20px;
@@ -1293,14 +1187,14 @@ a {
 ***************  Project Media Begin ********************* */
 
 @media (max-width: 1750px) and (min-width: 1476px) {
-  .project-break-container {
+  .break-container {
     height: 100px;
     width: 100%;
     background-color: hsl(175deg, 55%, 80%);
     position: relative;
   }
   
-  .project-break {
+  .break-content {
     padding-left: 90px;
     padding-top: 7px;
     font-size: 18px;
@@ -1366,14 +1260,14 @@ a {
 }
 
 @media (max-width: 1475px) and (min-width: 1420px) {
-  .project-break-container {
+  .break-container {
     height: 100px;
     width: 100%;
     background-color: hsl(175deg, 55%, 80%);
     position: relative;
   }
   
-  .project-break {
+  .break-content {
     padding-left: 90px;
     padding-top: 7px;
     font-size: 18px;
@@ -1438,14 +1332,14 @@ a {
 }
 
 @media (max-width: 1419px) and (min-width: 1250px) {
-  .project-break-container {
+  .break-container {
     height: 100px;
     width: 100%;
     background-color: hsl(175deg, 55%, 80%);
     position: relative;
   }
   
-  .project-break {
+  .break-content {
     padding-left: 90px;
     padding-top: 7px;
     font-size: 18px;
@@ -1510,14 +1404,14 @@ a {
 }
 
 @media (max-width: 1249px) and (min-width: 1000px) {
-  .project-break-container {
+  .break-container {
     height: 100px;
     width: 100%;
     background-color: hsl(175deg, 55%, 80%);
     position: relative;
   }
   
-  .project-break {
+  .break-content {
     padding-left: 90px;
     padding-top: 7px;
     font-size: 17px;
@@ -1583,14 +1477,14 @@ a {
 
 @media (max-width: 999px) and (min-width: 941px) {
 
-  .project-break-container {
+  .break-container {
     height: 100px;
     width: 100%;
     background-color: hsl(175deg, 55%, 80%);
     position: relative;
   }
   
-  .project-break {
+  .break-content {
     padding-left: 90px;
     padding-top: 7px;
     font-size: 16px;
@@ -1656,14 +1550,14 @@ a {
 
 @media (max-width: 940px) and (min-width: 775px) {
   
-  .project-break-container {
+  .break-container {
     height: 100px;
     width: 100%;
     background-color: hsl(175deg, 55%, 80%);
     position: relative;
   }
   
-  .project-break {
+  .break-content {
     padding-left: 90px;
     padding-top: 7px;
     font-size: 16px;
@@ -1728,14 +1622,14 @@ a {
 }
 
 @media (max-width: 774px) and (min-width: 690px) {
-  .project-break-container {
+  .break-container {
     height: 100px;
     width: 100%;
     background-color: hsl(175deg, 55%, 80%);
     position: relative;
   }
   
-  .project-break {
+  .break-content {
     padding-left: 80px;
     padding-top: 7px;
     font-size: 15px;
@@ -1800,14 +1694,14 @@ a {
 }
 
 @media (max-width: 689px) and (min-width: 600px) {
-  .project-break-container {
+  .break-container {
     height: 90px;
     width: 100%;
     background-color: hsl(175deg, 55%, 80%);
     position: relative;
   }
   
-  .project-break {
+  .break-content {
     padding-left: 70px;
     padding-top: 7px;
     font-size: 14px;
@@ -1872,14 +1766,14 @@ a {
 }
 
 @media (max-width: 599px) and (min-width: 0px) {
-  .project-break-container {
+  .break-container {
     height: 80px;
     width: 100%;
     background-color: hsl(175deg, 55%, 80%);
     position: relative;
   }
   
-  .project-break {
+  .break-content {
     padding-left: 30px;
     padding-top: 7px;
     font-size: 13px;
