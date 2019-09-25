@@ -150,6 +150,12 @@ class App extends React.Component {
 
         <Work />
 
+        <div className = "project-header-container">
+          <div className="project-header">
+            <h1 className="project-title">Projects</h1>
+          </div>
+        </div>
+
       </div>
 
 
