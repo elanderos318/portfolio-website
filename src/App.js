@@ -136,9 +136,9 @@ function Projects() {
     let containerClass;
 
     if ((i % 2) === 0) {
-      containerClass = "job-container job-even"; 
+      containerClass = "project-container project-even"; 
     } else {
-      containerClass = "job-container job-odd";
+      containerClass = "project-container project-odd";
     }
 
     let projectLine;
@@ -160,6 +160,8 @@ function Projects() {
         <p className = "url-line">Github: <a className="url-link" href={project.github}>{project.github}</a></p>
       </div>
     }
+
+
     return (
       <div className={containerClass}>
         <div className = "project-content">

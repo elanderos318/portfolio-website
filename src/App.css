@@ -1211,6 +1211,67 @@ a {
   color: hsl(100deg, 0%, 26%);
 }
 
+.project-container {
+  height: 300px;
+  width: 100%;
+  padding-top: 0px;
+  /* margin-top: -20px; */
+}
+
+.project-even {
+  background-color: #d2fafb;
+
+}
+
+.project-odd {
+  /* background-color: #d2fafb; */
+
+  background-color: hsl(150deg, 40%, 90%);
+}
+
+.project-content {
+  padding-left: 120px;
+  padding-top: 1px;
+  padding-right: 120px;
+}
+
+.project-title {
+  margin-bottom: 0px;
+  color: hsl(100deg, 0%, 35%);
+  font-size: 29px;
+}
+
+/* .job-company {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 23px;
+  font-weight: normal;
+} */
+
+
+
+.project-sub-header {
+  margin-top: 0px;
+  height: 20px;
+  font-style: italic;
+  color: hsl(100deg, 0%, 30%);
+  font-size: 18px;
+}
+
+.url-section {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.url-line {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.project-description {
+  font-size: 18px;
+}
+
 .url-link {
   color: hsl(220deg, 100%, 50%);
 }
