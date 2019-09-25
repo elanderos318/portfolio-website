@@ -6,7 +6,7 @@ import projects from './projects.json';
 
 import profile from './profile.jpg';
 import images from './images.js';
-import projectImg from './assets/tweetocracy/tweetocracy-1.PNG';
+// import projectImg from './assets/tweetocracy/tweetocracy-1.PNG';
 
 // Declare CSS inline styling variables
 var contactStyle = {

@@ -1,36 +1,3 @@
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
 :root {
   --lighter-turquoise: hsl(240deg, 100%, 96%);
 }
@@ -1263,30 +1230,27 @@ a {
   font-size: 18px;
 }
 
-/* .project-image {
-  height: 100px;
-  width: 100px;
-  background-size: cover;
-  background-position: top;
-  display: block;
-} */
-
 .project-images-container {
   height: 250px;
   width: 100%;
 }
 
 .project-image {
-  /* width: auto;
-  height: auto; */
-  /* max-width: 400px;
-  max-height: 400px; */
   margin-right: 50px;
   padding-bottom: 50px;
-  /* float: left; */
-  max-width: 27%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+
 }
+
+/* .profile-picture {
+  border-color: #41aaa8;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 10%;
+  float: left;
+  margin-right: 30px;
+} */
 
 .url-link {
   color: hsl(220deg, 100%, 50%);
@@ -1342,6 +1306,29 @@ a {
     color: hsl(100deg, 0%, 26%);
   }
 
+  .project-title {
+    margin-bottom: 0px;
+    color: hsl(100deg, 0%, 35%);
+    font-size: 27px;
+  }
+  
+  .project-sub-header {
+    margin-top: 0px;
+    height: 20px;
+    font-style: italic;
+    color: hsl(100deg, 0%, 30%);
+    font-size: 17px;
+  }
+  
+  .url-section {
+    font-size: 17px;
+    margin-top: 10px;
+  }
+  
+  .project-description {
+    font-size: 17px;
+  }
+
 }
 
 @media (max-width: 1475px) and (min-width: 1250px) {
@@ -1357,6 +1344,29 @@ a {
     padding-top: 7px;
     font-size: 18px;
     color: hsl(100deg, 0%, 26%);
+  }
+
+  .project-title {
+    margin-bottom: 0px;
+    color: hsl(100deg, 0%, 35%);
+    font-size: 26px;
+  }
+  
+  .project-sub-header {
+    margin-top: 0px;
+    height: 20px;
+    font-style: italic;
+    color: hsl(100deg, 0%, 30%);
+    font-size: 17px;
+  }
+  
+  .url-section {
+    font-size: 17px;
+    margin-top: 10px;
+  }
+  
+  .project-description {
+    font-size: 17px;
   }
 }
 
@@ -1374,6 +1384,29 @@ a {
     font-size: 17px;
     color: hsl(100deg, 0%, 26%);
   }
+
+  .project-title {
+    margin-bottom: 0px;
+    color: hsl(100deg, 0%, 35%);
+    font-size: 25px;
+  }
+  
+  .project-sub-header {
+    margin-top: 0px;
+    height: 20px;
+    font-style: italic;
+    color: hsl(100deg, 0%, 30%);
+    font-size: 16px;
+  }
+  
+  .url-section {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .project-description {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 999px) and (min-width: 775px) {
@@ -1389,6 +1422,29 @@ a {
     padding-top: 7px;
     font-size: 16px;
     color: hsl(100deg, 0%, 26%);
+  }
+
+  .project-title {
+    margin-bottom: 0px;
+    color: hsl(100deg, 0%, 35%);
+    font-size: 24px;
+  }
+  
+  .project-sub-header {
+    margin-top: 0px;
+    height: 20px;
+    font-style: italic;
+    color: hsl(100deg, 0%, 30%);
+    font-size: 15px;
+  }
+  
+  .url-section {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  
+  .project-description {
+    font-size: 15px;
   }
 }
 
@@ -1406,6 +1462,29 @@ a {
     font-size: 15px;
     color: hsl(100deg, 0%, 26%);
   }
+
+  .project-title {
+    margin-bottom: 0px;
+    color: hsl(100deg, 0%, 35%);
+    font-size: 23px;
+  }
+  
+  .project-sub-header {
+    margin-top: 0px;
+    height: 20px;
+    font-style: italic;
+    color: hsl(100deg, 0%, 30%);
+    font-size: 14px;
+  }
+  
+  .url-section {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .project-description {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 689px) and (min-width: 600px) {
@@ -1422,6 +1501,29 @@ a {
     font-size: 14px;
     color: hsl(100deg, 0%, 26%);
   }
+
+  .project-title {
+    margin-bottom: 0px;
+    color: hsl(100deg, 0%, 35%);
+    font-size: 23px;
+  }
+  
+  .project-sub-header {
+    margin-top: 0px;
+    height: 20px;
+    font-style: italic;
+    color: hsl(100deg, 0%, 30%);
+    font-size: 14px;
+  }
+  
+  .url-section {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .project-description {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 599px) and (min-width: 0px) {
@@ -1437,5 +1539,28 @@ a {
     padding-top: 7px;
     font-size: 13px;
     color: hsl(100deg, 0%, 26%);
+  }
+
+  .project-title {
+    margin-bottom: 0px;
+    color: hsl(100deg, 0%, 35%);
+    font-size: 23px;
+  }
+  
+  .project-sub-header {
+    margin-top: 0px;
+    height: 20px;
+    font-style: italic;
+    color: hsl(100deg, 0%, 30%);
+    font-size: 14px;
+  }
+  
+  .url-section {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .project-description {
+    font-size: 14px;
   }
 }
