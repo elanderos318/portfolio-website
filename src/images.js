@@ -16,6 +16,24 @@ const images = [
         src: require('./assets/tweetocracy/tweetocracy-3.png'),
         projectIndex: 0,
         alt: "tweetocracy-3"
+    },
+    {
+        id: 4,
+        src: require('./assets/bulls-bears/bulls-bears-1.png'),
+        projectIndex: 1,
+        alt: "bulls-bears-1"
+    },
+    {
+        id: 5,
+        src: require('./assets/bulls-bears/bulls-bears-2.png'),
+        projectIndex: 1,
+        alt: "bulls-bears-2"
+    },
+    {
+        id: 6,
+        src: require('./assets/bulls-bears/bulls-bears-3.png'),
+        projectIndex: 1,
+        alt: "bulls-bears-3"
     }
 ]
 

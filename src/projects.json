@@ -9,5 +9,13 @@
         "image-1": "./assets/tweetocracy/tweetocracy-1.PNG",
         "image-2": "./images/tweetocracy/image-2",
         "image-3": "./images/tweetocracy/image-3"
+    },
+    {
+        "title": "Bulls and Bears: Visualization of Capital Markets",
+        "start-date": "September 2019",
+        "end-date": "September 2019",
+        "description": "This project makes use of a python flask backend to serve S&P 500 index data from Yahoo Finance, delivered to the front-end and displayed using D3.js. The idea is to display detailed statistical distributions of the data and provide information about drift and variance of index prices during 'Bull' and 'Bear' markets. The front-end user can adjust the sensitivity of price levels that 'activate' changes in the market, and the backend will again serve the data according to the new threshold.",
+        "github": "https://github.com/elanderos318/Bulls-and-Bears-Viz",
+        "website": "https://bulls-bears.herokuapp.com/"
     }
 ]
