@@ -1182,7 +1182,6 @@ a {
   height: 600px;
   width: 100%;
   padding-top: 0px;
-  /* margin-top: -20px; */
 }
 
 .project-even {
@@ -1237,20 +1236,13 @@ a {
 
 .project-image {
   margin-right: 50px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   max-width: 100%;
   max-height: 100%;
-
-}
-
-/* .profile-picture {
-  border-color: #41aaa8;
-  border-width: 5px;
+  border-color: black;
+  border-width: 1px;
   border-style: solid;
-  border-radius: 10%;
-  float: left;
-  margin-right: 30px;
-} */
+}
 
 .url-link {
   color: hsl(220deg, 100%, 50%);
@@ -1306,6 +1298,18 @@ a {
     color: hsl(100deg, 0%, 26%);
   }
 
+  .project-container {
+    height: 550px;
+    width: 100%;
+    padding-top: 0px;
+  }
+
+  .project-content {
+    padding-left: 90px;
+    padding-top: 1px;
+    padding-right: 90px;
+  }
+
   .project-title {
     margin-bottom: 0px;
     color: hsl(100deg, 0%, 35%);
@@ -1329,9 +1333,24 @@ a {
     font-size: 17px;
   }
 
+  .project-images-container {
+    height: 200px;
+    width: 100%;
+  }
+  
+  .project-image {
+    margin-right: 50px;
+    margin-bottom: 50px;
+    max-width: 100%;
+    max-height: 100%;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+  }
+
 }
 
-@media (max-width: 1475px) and (min-width: 1250px) {
+@media (max-width: 1475px) and (min-width: 1420px) {
   .project-break-container {
     height: 100px;
     width: 100%;
@@ -1344,6 +1363,18 @@ a {
     padding-top: 7px;
     font-size: 18px;
     color: hsl(100deg, 0%, 26%);
+  }
+
+  .project-container {
+    height: 550px;
+    width: 100%;
+    padding-top: 0px;
+  }
+
+  .project-content {
+    padding-left: 90px;
+    padding-top: 1px;
+    padding-right: 90px;
   }
 
   .project-title {
@@ -1368,6 +1399,87 @@ a {
   .project-description {
     font-size: 17px;
   }
+
+  .project-images-container {
+    height: 200px;
+    width: 100%;
+  }
+  
+  .project-image {
+    margin-right: 50px;
+    margin-bottom: 50px;
+    max-width: 100%;
+    max-height: 100%;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+  }
+}
+
+@media (max-width: 1419px) and (min-width: 1250px) {
+  .project-break-container {
+    height: 100px;
+    width: 100%;
+    background-color: hsl(175deg, 55%, 80%);
+    position: relative;
+  }
+  
+  .project-break {
+    padding-left: 90px;
+    padding-top: 7px;
+    font-size: 18px;
+    color: hsl(100deg, 0%, 26%);
+  }
+
+  .project-container {
+    height: 780px;
+    width: 100%;
+    padding-top: 0px;
+  }
+
+  .project-content {
+    padding-left: 90px;
+    padding-top: 1px;
+    padding-right: 90px;
+  }
+
+  .project-title {
+    margin-bottom: 0px;
+    color: hsl(100deg, 0%, 35%);
+    font-size: 26px;
+  }
+  
+  .project-sub-header {
+    margin-top: 0px;
+    height: 20px;
+    font-style: italic;
+    color: hsl(100deg, 0%, 30%);
+    font-size: 17px;
+  }
+  
+  .url-section {
+    font-size: 17px;
+    margin-top: 10px;
+  }
+  
+  .project-description {
+    font-size: 17px;
+  }
+
+  .project-images-container {
+    height: 200px;
+    width: 100%;
+  }
+  
+  .project-image {
+    margin-right: 50px;
+    margin-bottom: 50px;
+    max-width: 100%;
+    max-height: 100%;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+  }
 }
 
 @media (max-width: 1249px) and (min-width: 1000px) {
@@ -1383,6 +1495,18 @@ a {
     padding-top: 7px;
     font-size: 17px;
     color: hsl(100deg, 0%, 26%);
+  }
+
+  .project-content {
+    padding-left: 90px;
+    padding-top: 1px;
+    padding-right: 90px;
+  }
+
+  .project-container {
+    height: 780px;
+    width: 100%;
+    padding-top: 0px;
   }
 
   .project-title {
@@ -1407,9 +1531,25 @@ a {
   .project-description {
     font-size: 16px;
   }
+
+  .project-images-container {
+    height: 180px;
+    width: 100%;
+  }
+  
+  .project-image {
+    margin-right: 50px;
+    margin-bottom: 50px;
+    max-width: 100%;
+    max-height: 100%;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+  }
 }
 
-@media (max-width: 999px) and (min-width: 775px) {
+@media (max-width: 999px) and (min-width: 941px) {
+
   .project-break-container {
     height: 100px;
     width: 100%;
@@ -1422,6 +1562,18 @@ a {
     padding-top: 7px;
     font-size: 16px;
     color: hsl(100deg, 0%, 26%);
+  }
+
+  .project-container {
+    height: 780px;
+    width: 100%;
+    padding-top: 0px;
+  }
+
+  .project-content {
+    padding-left: 90px;
+    padding-top: 1px;
+    padding-right: 90px;
   }
 
   .project-title {
@@ -1446,6 +1598,88 @@ a {
   .project-description {
     font-size: 15px;
   }
+
+  .project-images-container {
+    height: 180px;
+    width: 100%;
+  }
+  
+  .project-image {
+    margin-right: 50px;
+    margin-bottom: 20px;
+    max-width: 100%;
+    max-height: 100%;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+  }
+}
+
+@media (max-width: 940px) and (min-width: 775px) {
+  
+  .project-break-container {
+    height: 100px;
+    width: 100%;
+    background-color: hsl(175deg, 55%, 80%);
+    position: relative;
+  }
+  
+  .project-break {
+    padding-left: 90px;
+    padding-top: 7px;
+    font-size: 16px;
+    color: hsl(100deg, 0%, 26%);
+  }
+
+  .project-container {
+    height: 950px;
+    width: 100%;
+    padding-top: 0px;
+  }
+
+  .project-content {
+    padding-left: 90px;
+    padding-top: 1px;
+    padding-right: 90px;
+  }
+
+  .project-title {
+    margin-bottom: 0px;
+    color: hsl(100deg, 0%, 35%);
+    font-size: 24px;
+  }
+  
+  .project-sub-header {
+    margin-top: 0px;
+    height: 20px;
+    font-style: italic;
+    color: hsl(100deg, 0%, 30%);
+    font-size: 15px;
+  }
+  
+  .url-section {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  
+  .project-description {
+    font-size: 15px;
+  }
+
+  .project-images-container {
+    height: 180px;
+    width: 100%;
+  }
+  
+  .project-image {
+    margin-right: 50px;
+    margin-bottom: 20px;
+    max-width: 100%;
+    max-height: 100%;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+  }
 }
 
 @media (max-width: 774px) and (min-width: 690px) {
@@ -1461,6 +1695,18 @@ a {
     padding-top: 7px;
     font-size: 15px;
     color: hsl(100deg, 0%, 26%);
+  }
+
+  .project-container {
+    height: 950px;
+    width: 100%;
+    padding-top: 0px;
+  }
+
+  .project-content {
+    padding-left: 80px;
+    padding-top: 1px;
+    padding-right: 80px;
   }
 
   .project-title {
@@ -1484,6 +1730,21 @@ a {
   
   .project-description {
     font-size: 14px;
+  }
+
+  .project-images-container {
+    height: 180px;
+    width: 100%;
+  }
+  
+  .project-image {
+    margin-right: 50px;
+    margin-bottom: 20px;
+    max-width: 100%;
+    max-height: 100%;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
   }
 }
 
@@ -1502,6 +1763,18 @@ a {
     color: hsl(100deg, 0%, 26%);
   }
 
+  .project-container {
+    height: 970px;
+    width: 100%;
+    padding-top: 0px;
+  }
+
+  .project-content {
+    padding-left: 70px;
+    padding-top: 1px;
+    padding-right: 70px;
+  }
+
   .project-title {
     margin-bottom: 0px;
     color: hsl(100deg, 0%, 35%);
@@ -1523,6 +1796,21 @@ a {
   
   .project-description {
     font-size: 14px;
+  }
+
+  .project-images-container {
+    height: 180px;
+    width: 100%;
+  }
+  
+  .project-image {
+    margin-right: 50px;
+    margin-bottom: 20px;
+    max-width: 100%;
+    max-height: 100%;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
   }
 }
 
@@ -1541,6 +1829,18 @@ a {
     color: hsl(100deg, 0%, 26%);
   }
 
+  .project-container {
+    height: 990px;
+    width: 100%;
+    padding-top: 0px;
+  }
+
+  .project-content {
+    padding-left: 30px;
+    padding-top: 1px;
+    padding-right: 30px;
+  }
+
   .project-title {
     margin-bottom: 0px;
     color: hsl(100deg, 0%, 35%);
@@ -1562,5 +1862,20 @@ a {
   
   .project-description {
     font-size: 14px;
+  }
+
+  .project-images-container {
+    height: 180px;
+    width: 100%;
+  }
+  
+  .project-image {
+    margin-right: 50px;
+    margin-bottom: 20px;
+    max-width: 100%;
+    max-height: 100%;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
   }
 }
