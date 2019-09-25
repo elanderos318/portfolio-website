@@ -147,9 +147,19 @@ function Projects() {
       projectLine = <span className="project-date">{project["start-date"]}</span>
     } else {
       projectLine = <span className="project-date">{project["start-date"]} - {project["end-date"]}</span>
-
     }
 
+    let urlLine;
+    if (project.website) {
+      urlLine = <div className="url-section">
+        <p className = "url-line">Github: <a className="url-link" href={project.github}>{project.github}</a></p>
+        <p className = "url-line">Website: <a className="url-link" href={project.website}>{project.website}</a></p>
+      </div>
+    } else {
+      urlLine = <div className="url-section">
+        <p className = "url-line">Github: <a className="url-link" href={project.github}>{project.github}</a></p>
+      </div>
+    }
     return (
       <div className={containerClass}>
         <div className = "project-content">
@@ -159,6 +169,7 @@ function Projects() {
           <div className="project-sub-header">
           {projectLine}
           </div>
+          {urlLine}
           <div className="project-description">
             <p>{project.description}</p>
           </div>
