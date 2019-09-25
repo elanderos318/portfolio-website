@@ -1201,6 +1201,12 @@ a {
   padding-right: 120px;
 }
 
+.project-container-no-image {
+  height: 270px;
+  width: 100%;
+  padding-top: 0px;
+}
+
 .project-title {
   margin-bottom: 0px;
   color: hsl(100deg, 0%, 35%);
@@ -1304,6 +1310,12 @@ a {
     padding-top: 0px;
   }
 
+  .project-container-no-image {
+    height: 270px;
+    width: 100%;
+    padding-top: 0px;
+  }
+
   .project-content {
     padding-left: 90px;
     padding-top: 1px;
@@ -1371,6 +1383,12 @@ a {
     padding-top: 0px;
   }
 
+  .project-container-no-image {
+    height: 270px;
+    width: 100%;
+    padding-top: 0px;
+  }
+
   .project-content {
     padding-left: 90px;
     padding-top: 1px;
@@ -1433,6 +1451,12 @@ a {
 
   .project-container {
     height: 780px;
+    width: 100%;
+    padding-top: 0px;
+  }
+
+  .project-container-no-image {
+    height: 270px;
     width: 100%;
     padding-top: 0px;
   }
@@ -1509,6 +1533,12 @@ a {
     padding-top: 0px;
   }
 
+  .project-container-no-image {
+    height: 270px;
+    width: 100%;
+    padding-top: 0px;
+  }
+
   .project-title {
     margin-bottom: 0px;
     color: hsl(100deg, 0%, 35%);
@@ -1566,6 +1596,12 @@ a {
 
   .project-container {
     height: 780px;
+    width: 100%;
+    padding-top: 0px;
+  }
+
+  .project-container-no-image {
+    height: 270px;
     width: 100%;
     padding-top: 0px;
   }
@@ -1637,6 +1673,12 @@ a {
     padding-top: 0px;
   }
 
+  .project-container-no-image {
+    height: 290px;
+    width: 100%;
+    padding-top: 0px;
+  }
+
   .project-content {
     padding-left: 90px;
     padding-top: 1px;
@@ -1699,6 +1741,12 @@ a {
 
   .project-container {
     height: 950px;
+    width: 100%;
+    padding-top: 0px;
+  }
+
+  .project-container-no-image {
+    height: 320px;
     width: 100%;
     padding-top: 0px;
   }
@@ -1769,6 +1817,12 @@ a {
     padding-top: 0px;
   }
 
+  .project-container-no-image {
+    height: 350px;
+    width: 100%;
+    padding-top: 0px;
+  }
+
   .project-content {
     padding-left: 70px;
     padding-top: 1px;
@@ -1831,6 +1885,12 @@ a {
 
   .project-container {
     height: 990px;
+    width: 100%;
+    padding-top: 0px;
+  }
+
+  .project-container-no-image {
+    height: 350px;
     width: 100%;
     padding-top: 0px;
   }
