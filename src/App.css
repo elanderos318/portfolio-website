@@ -711,7 +711,10 @@ a {
 }
 
 .job-odd {
-  background-color: #d2fafb;
+  /* background-color: #d2fafb; */
+
+  background-color: hsl(189deg, 90%, 90%);
+
 
   /* background-color: hsl(150deg, 40%, 90%); */
 }
@@ -1192,7 +1195,7 @@ a {
 .project-odd {
   /* background-color: #d2fafb; */
 
-  background-color: hsl(150deg, 40%, 90%);
+  background-color: hsl(189deg, 90%, 90%);
 }
 
 .project-content {
