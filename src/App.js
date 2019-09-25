@@ -127,21 +127,32 @@ function Projects() {
     })
 
     let imageDiv;
+    let imageExists = false;
 
-    if (imageElements) {
+    if (imageElements.length > 0) {
       imageDiv = <div className = "project-images-container">
         {imageElements}
       </div>
+      imageExists = true;
     } else {
       imageDiv = null;
+      imageExists = false;
     }
 
     let containerClass;
 
     if ((i % 2) === 0) {
-      containerClass = "project-container project-even"; 
+      if (imageExists) {
+        containerClass = "project-container project-even"; 
+      } else {
+        containerClass = "project-container-no-image project-even"; 
+      }
     } else {
-      containerClass = "project-container project-odd";
+      if (imageExists) {
+        containerClass = "project-container project-odd";
+      } else {
+        containerClass = "project-container-no-image project-odd";
+      }
     }
 
     let dateLine;
