@@ -31,6 +31,7 @@
         "Matplotlib",
         "MongoDB",
         "HTML5",
-        "CSS"
+        "CSS",
+        "Flask"
     ]
 }

@@ -6,5 +6,19 @@
         "end-date": "May 2019",
         "location": "Chicago, IL",
         "description": ""
+    },
+    {
+        "institution": "University of Chicago",
+        "product": "Bachelor of Arts in Economics",
+        "start-date": "September 2012",
+        "end-date": "December 2016",
+        "location": "Chicago, IL"
+    },
+    {
+        "institution": "Mount Pleasant High School",
+        "product": "High School Diploma",
+        "start-date": "2008",
+        "end-date": "2012",
+        "location": "Mount Pleasant, TX"
     }
 ]
