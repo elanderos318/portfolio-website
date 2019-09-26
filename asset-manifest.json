@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.8b744cf2.chunk.css",
-    "main.js": "/portfolio-website/static/js/main.08a0ccc3.chunk.js",
-    "main.js.map": "/portfolio-website/static/js/main.08a0ccc3.chunk.js.map",
+    "main.css": "/portfolio-website/static/css/main.f1d78e13.chunk.css",
+    "main.js": "/portfolio-website/static/js/main.2cc51799.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.2cc51799.chunk.js.map",
     "runtime~main.js": "/portfolio-website/static/js/runtime~main.d553bd34.js",
     "runtime~main.js.map": "/portfolio-website/static/js/runtime~main.d553bd34.js.map",
-    "static/js/2.b99ea48b.chunk.js": "/portfolio-website/static/js/2.b99ea48b.chunk.js",
-    "static/js/2.b99ea48b.chunk.js.map": "/portfolio-website/static/js/2.b99ea48b.chunk.js.map",
+    "static/js/2.93eb6515.chunk.js": "/portfolio-website/static/js/2.93eb6515.chunk.js",
+    "static/js/2.93eb6515.chunk.js.map": "/portfolio-website/static/js/2.93eb6515.chunk.js.map",
     "index.html": "/portfolio-website/index.html",
-    "precache-manifest.6f474006202e2e5537b6a54311068088.js": "/portfolio-website/precache-manifest.6f474006202e2e5537b6a54311068088.js",
+    "precache-manifest.92963c5a04ddd61d038d9fe8b7c2dbb2.js": "/portfolio-website/precache-manifest.92963c5a04ddd61d038d9fe8b7c2dbb2.js",
     "service-worker.js": "/portfolio-website/service-worker.js",
-    "static/css/main.8b744cf2.chunk.css.map": "/portfolio-website/static/css/main.8b744cf2.chunk.css.map",
-    "static/media/logo.svg": "/portfolio-website/static/media/logo.5d5d9eef.svg"
+    "static/css/main.f1d78e13.chunk.css.map": "/portfolio-website/static/css/main.f1d78e13.chunk.css.map",
+    "static/media/bulls-bears-1.png": "/portfolio-website/static/media/bulls-bears-1.df1544d6.png",
+    "static/media/bulls-bears-2.png": "/portfolio-website/static/media/bulls-bears-2.d0702af2.png",
+    "static/media/bulls-bears-3.png": "/portfolio-website/static/media/bulls-bears-3.882f51b9.png",
+    "static/media/tweetocracy-1.png": "/portfolio-website/static/media/tweetocracy-1.a6b04859.png",
+    "static/media/tweetocracy-2.png": "/portfolio-website/static/media/tweetocracy-2.1a7b8084.png",
+    "static/media/tweetocracy-3.png": "/portfolio-website/static/media/tweetocracy-3.dcee28c0.png"
   }
 }
