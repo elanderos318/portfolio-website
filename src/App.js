@@ -248,6 +248,29 @@ function Education() {
   );
 }
 
+function Footer() {
+  return (
+    <div className="footer-container">
+      <div className="footer-content">
+        <h1 className="footer-title">Contact</h1>
+
+        <ul className="footer-contact">
+
+          <li>
+            <a href="https://github.com/elanderos318?tab=overview&from=2019-09-01&to=2019-09-20" target = "_blank">Github</a> 
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/eduardo-landeros-100a8612b/" target="_blank">LinkedIn</a> 
+          </li>
+          <li>
+            <span style={contactStyle}> email: </span>{header.contact.email} 
+          </li>
+        </ul>     
+      </div>
+    </div>
+  );
+}
+
 
 class App extends React.Component {
 
@@ -280,6 +303,8 @@ class App extends React.Component {
         />
 
         <Education />
+
+        <Footer />
 
       </div>
 
