@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "14987d6bd041ec1de7133de1d2e9e9ce",
+    "revision": "07b7c9ad43d4af28ed832626758ae7fa",
     "url": "/portfolio-website/index.html"
   },
   {
-    "revision": "ede1ea1c6d8112ef4c4c",
+    "revision": "9688dfdb1552eecaae46",
     "url": "/portfolio-website/static/css/main.f1d78e13.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-website/static/js/2.93eb6515.chunk.js"
   },
   {
-    "revision": "ede1ea1c6d8112ef4c4c",
-    "url": "/portfolio-website/static/js/main.ed31348b.chunk.js"
+    "revision": "9688dfdb1552eecaae46",
+    "url": "/portfolio-website/static/js/main.09ada5fa.chunk.js"
   },
   {
     "revision": "00f2a64c24c1b1ef60ef",
@@ -30,6 +30,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "882f51b9995e9e1b78bc480c88080cf7",
     "url": "/portfolio-website/static/media/bulls-bears-3.882f51b9.png"
+  },
+  {
+    "revision": "4afc3a27380780577a58f570a69dbb19",
+    "url": "/portfolio-website/static/media/portfolio-website-1.4afc3a27.png"
+  },
+  {
+    "revision": "f2dd9c4e944aa5a528a4485aec2f8571",
+    "url": "/portfolio-website/static/media/portfolio-website-2.f2dd9c4e.png"
   },
   {
     "revision": "a6b048596cfec576cc38ef89e7e2da62",
