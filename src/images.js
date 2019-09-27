@@ -34,6 +34,18 @@ const images = [
         src: require('./assets/bulls-bears/bulls-bears-3.png'),
         projectIndex: 1,
         alt: "bulls-bears-3"
+    },
+    {
+        id: 7,
+        src: require('./assets/portfolio-website/portfolio-website-1.png'),
+        projectIndex: 3,
+        alt: "portfolio-website-1"
+    },
+    {
+        id: 8,
+        src: require('./assets/portfolio-website/portfolio-website-2.png'),
+        projectIndex: 3,
+        alt: "portfolio-website-2"
     }
 ]
 
