@@ -1,11 +1,19 @@
 [
     {
-        "title": "Intern",
-        "company": "Factory Fix",
-        "start-date": "June 2020",
+        "title": "Software Engineer",
+        "company": "FactoryFix",
+        "start-date": "September 2020",
         "end-date": "Current",
         "location": "Chicago, IL",
-        "description": ""
+        "description": "Contribute to CI/CD pipeline of company’s application on front-end, back-end, and other misc. tasks. Integration of automated requests to cloud-based model; migration of legacy code to current versions on both front-end and back-end; unit testing of all code, regular triage of bug reports, etc."
+    },
+    {
+        "title": "Intern",
+        "company": "FactoryFix",
+        "start-date": "June 2020",
+        "end-date": "September 2020",
+        "location": "Chicago, IL",
+        "description": "Developed software to process and score candidate applications at scale. Built a parsing tool for identifying keywords within candidate resumes; designed cloud functions for automating screening questions sent to candidates; wrote scripts designed to scrape relevant data from the internet"
     },
     {
         "title": "Investment Accounting Analyst",
@@ -13,7 +21,7 @@
         "start-date": "February 2020",
         "end-date": "Current",
         "location": "Chicago, IL",
-        "description": ""
+        "description": "Provide accounting and operational support for the bank in its role as investor in commercial loans. Formulate scripts using Python, SQL, and Excel to improve the reconciliation and data mining processes required by teams within CCLO; send and approve wires as needed when receiving capital call notices and assist with administrative booking responsibilities."
     },
     {
         "title": "CDO Portfolio Administrator",
